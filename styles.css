@@ -1,19 +1,96 @@
+/* Monkey Jungle Theme */
+
+/* General page setup */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6fb;
-  color: #222;
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(180deg, #d0f0c0 0%, #b2e4a8 100%);
+  color: #2f2f2f;
   margin: 0;
-  padding: 40px;
+  padding: 0;
+  text-align: center;
 }
-.container {
+
+/* Header */
+header {
+  background: #5a9130;
+  color: white;
+  padding: 30px 15px;
+  border-bottom: 4px solid #4a7c28;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+.tagline {
+  margin-top: 10px;
+  font-style: italic;
+  color: #f4f4f4;
+}
+
+/* Monkey image section */
+.intro {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 40px auto;
   max-width: 700px;
-  margin: 0 auto;
-  background: white;
-  padding: 24px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
-h1 {
-  color: #004aad;
-  margin-top: 0;
+
+.monkey-img {
+  width: 280px;
+  border-radius: 50%;
+  border: 6px solid #5a9130;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+.monkey-img:hover {
+  transform: scale(1.08) rotate(-3deg);
+}
+
+.intro h2 {
+  margin-top: 20px;
+  color: #4a7c28;
+}
+
+/* Fun facts section */
+.fun-facts {
+  background: #fffbe6;
+  margin: 40px auto;
+  max-width: 700px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.fun-facts h2 {
+  color: #e0a500;
+}
+.fun-facts ul {
+  list-style: none;
+  padding: 0;
+}
+.fun-facts li {
+  padding: 8px 0;
+  font-size: 1.1rem;
+}
+
+/* Footer note */
+.footer-note {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 40px auto;
+  max-width: 700px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+footer {
+  background: #4a7c28;
+  color: white;
+  padding: 20px;
+  font-size: 0.95rem;
+  margin-top: 40px;
 }
